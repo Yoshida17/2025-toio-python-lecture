@@ -8,6 +8,8 @@ nav_order: 1
 
 toioロボットとPythonで楽しくプログラミングを学ぼう！
 
+*画像出典: https://toio.io/*
+
 ![toio cube](https://toio.io/_next/static/media/cube.b4d70949.webp)
 
 ## 📚 学習内容
