@@ -9,6 +9,8 @@ nav_order: 10
 
 Raspberry Pi上のThonnyエディタを使ってプログラムを書きます．
 
+*画像出典: https://thonny.org/*
+
 ![Thonny Editor](https://thonny.org/img/screenshot.png)
 
 ## Thonnyの起動方法
