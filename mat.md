@@ -16,6 +16,8 @@ nav_order: 20
 - 180度，-180度: マットの下方向
 - -90度: マットの左方向
 
+*画像出典: https://github.com/toio/toio.py/blob/main/SIMPLE_API.ja.md*
+
 ![toio coordinate system](https://github.com/toio/toio.py/raw/main/image/IMG-2023-02-27-15-14-45.png)
 ![toio coordinate system](https://github.com/toio/toio.py/raw/main/image/IMG-2023-02-27-15-15-11.png)
 
