@@ -97,7 +97,7 @@ import toio.scanner; print('ok')
 
 ### Raspberry Pi に日本語入力を導入する
 
-#### 1．パッケージをインストール（Fcitx + Mozc）
+**パッケージをインストール（Fcitx + Mozc）**
 
 ```shell
 sudo apt update
@@ -108,34 +108,15 @@ sudo apt install -y fcitx-mozc fonts-ipafont
 
 - `fonts-ipafont`：日本語フォント（IPA）
 
----
+再起動する
 
-#### 2．入力メソッドを Fcitx に設定する
+```shell
+sudo reboot
+```
 
-GUI から設定を変更：
+再起動後，タスクバー右上に Fcitx のアイコンが出ているか確認（四角いキーボードのようなマーク）  
 
-- メニュー → `設定` → `Raspberry Piの設定`
-
-- 「ローカライゼーション」タブを開く
-
-- 「キーボードレイアウト」「ロケール」などを日本に設定しておくと良い
-
-- 「入力メソッド」にて `fcitx` を選択
-
-※設定後，ログアウトまたは再起動が必要です
-
----
-
-#### 3．Fcitx を設定する（Mozc を有効化）
-
-1．再起動後，タスクバー右上に Fcitx のアイコンが出ているか確認（四角いキーボードのようなマーク）  
-2．そのアイコンを右クリック → 「設定」  
-3．「＋」をクリックして `Mozc` を追加  
-4．不要な入力メソッド（英語など）がある場合は削除してもOK
-
----
-
-#### 4．入力切り替えキー
+**入力切り替えキー**
 
 - 通常は **Ctrl + Space** または **半角/全角キー（キーボードにある場合）** で切り替え
 
@@ -143,7 +124,7 @@ GUI から設定を変更：
 
 ---
 
-フォントのインストール
+必要ならばフォントのインストール
 
 ```shell
 sudo apt install fonts-noto-cjk
@@ -153,12 +134,13 @@ sudo apt install fonts-noto-cjk
 
 `Noto Sans CJK HK Regular`
 
+---
+
 ## キューブIDを指定して接続する方法
 
 ```python
 from toio.simple import SimpleCube
-target_cube_name = "toio-A0F" #実際のキューブ名に変更
-
+target_cube_name = "toio-xxx" #実際のキューブ名に変更
 
 with SimpleCube(name=target_cube_name) as cube:
     #キューブを操作
