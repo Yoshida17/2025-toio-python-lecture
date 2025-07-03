@@ -11,6 +11,8 @@ nav_order: 40
 
 toioはSONYが開発した小さなロボットキューブです．プログラムでモーターやライト，音などを制御できます．
 
+*画像出典: https://toio.io/*
+
 ![toio cube](https://toio.io/_next/static/media/cube.b4d70949.webp)
 
 ---
@@ -30,6 +32,8 @@ toioはSONYが開発した小さなロボットキューブです．プログラ
 ---
 
 ## 電源の入れ方・切り方
+
+*画像出典: https://toio.github.io/toio-spec/docs/how_to_use_cube/*
 
 ![toio_power](https://toio.github.io/toio-spec/assets/images/cube_basics_power_on_off-16ad212a37d733ec6cb6c5df5b1bf91c.svg)
 
